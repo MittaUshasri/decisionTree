@@ -1,8 +1,7 @@
-sklearn
 scikit-learn
 pandas
 uvicorn
 fastapi
 jinja2
 python-multipart
-pickle5
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iris Classifier (FastAPI)</title>
+</head>
+<body>
+    <h2>Enter Iris Flower Measurements</h2>
+    <form method="post">
+        Sepal Length: <input type="number" step="any" name="sepal_length"><br><br>
+        Sepal Width: <input type="number" step="any" name="sepal_width"><br><br>
+        Petal Length: <input type="number" step="any" name="petal_length"><br><br>
+        Petal Width: <input type="number" step="any" name="petal_width"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+        <h3>{{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
